@@ -1,0 +1,74 @@
+[
+  {
+    "serial_number": "81248233",
+    "brand": "Toyo Tires",
+    "model": "PROXES TM1 Ultra High Performance",
+    "size": "195R50-15",
+    "position": "FL",
+    "mileage_installation": 34250,
+    "car_id": 430
+  },
+  {
+    "serial_number": "81248234",
+    "brand": "Toyo Tires",
+    "model": "PROXES TM1 Ultra High Performance",
+    "size": "195R50-15",
+    "position": "FR",
+    "mileage_installation": 34250,
+    "car_id": 430
+  },
+  {
+    "serial_number": "81248235",
+    "brand": "Toyo Tires",
+    "model": "PROXES TM1 Ultra High Performance",
+    "size": "195R50-15",
+    "position": "RL",
+    "mileage_installation": 34250,
+    "car_id": 430
+  },
+  {
+    "serial_number": "81248236",
+    "brand": "Toyo Tires",
+    "model": "PROXES TM1 Ultra High Performance",
+    "size": "195R50-15",
+    "position": "RR",
+    "mileage_installation": 34250,
+    "car_id": 430
+  },
+  {
+    "serial_number": "B1234785",
+    "brand": "Bridgestone",
+    "model": "Dueler A/T Revo 3",
+    "size": "P225/75/16",
+    "position": "FL",
+    "mileage_installation": 1543,
+    "car_id": 237
+  },
+  {
+    "serial_number": "B1234786",
+    "brand": "Bridgestone",
+    "model": "Dueler A/T Revo 3",
+    "size": "P225/75/16",
+    "position": "FR",
+    "mileage_installation": 1543,
+    "car_id": 237
+  },
+  {
+    "serial_number": "B1234787",
+    "brand": "Bridgestone",
+    "model": "Dueler A/T Revo 3",
+    "size": "P225/75/16",
+    "position": "RL",
+    "mileage_installation": 1543,
+    "car_id": 237
+  },
+  {
+    "serial_number": "B1234788",
+    "brand": "Bridgestone",
+    "model": "Dueler A/T Revo 3",
+    "size": "P225/75/16",
+    "position": "RR",
+    "mileage_installation": 1543,
+    "car_id": 237
+  }
+]

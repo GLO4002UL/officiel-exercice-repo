@@ -1,0 +1,22 @@
+[
+  {
+    "car_id": 237,
+    "changed_at_date": "2019-04-21",
+    "changed_at_mileage": 11235
+  },
+  {
+    "car_id": 237,
+    "changed_at_date": "2019-12-16",
+    "changed_at_mileage": 15280
+  },
+  {
+    "car_id": 237,
+    "changed_at_date": "2020-02-06",
+    "changed_at_mileage": 18199
+  },
+  {
+    "car_id": 430,
+    "changed_at_date": "2020-01-01",
+    "changed_at_mileage": 9491
+  }
+]

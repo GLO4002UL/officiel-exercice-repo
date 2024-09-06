@@ -1,0 +1,26 @@
+<persistence version="2.1"
+        xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="repo_example" transaction-type="RESOURCE_LOCAL">
+        <description>persistence unit used for repo example</description>
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>ca.ulaval.glo4002.repo.Car</class>
+        <class>ca.ulaval.glo4002.repo.Wheel</class>
+        <class>ca.ulaval.glo4002.repo.OilChange</class>
+
+        <properties>
+            <property name="hibernate.archive.autodetection" value="class" />
+            <property name="hibernate.dialect" value="org.hibernate.community.dialect.SQLiteDialect" />
+            <property name="hibernate.connection.driver_class" value="org.sqlite.JDBC" />
+            <property name="hibernate.connection.username" value="" />
+            <property name="hibernate.connection.password" value="" />
+            <property name="hibernate.connection.user" value="" />
+            <property name="hibernate.connection.autocommit" value="true"/>
+            <!-- This value will be replaced in the configOverrides when using createEntityManagerFactory() -->
+            <property name="hibernate.connection.url" value="@@OVERRIDE_THIS@@"/>
+            <property name="hibernate.show_sql" value="false"/>
+            <property name="hibernate.flushMode" value="ALWAYS" />
+            <property name="hibernate.cache.use_second_level_cache" value="false" />
+        </properties>
+    </persistence-unit>
+</persistence>
